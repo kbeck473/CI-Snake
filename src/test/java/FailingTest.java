@@ -7,6 +7,6 @@ public class FailingTest {
     public void testThatFails() {
         // Intentionally fail the test
         //fail("This test is intentionally failing to block the build.");
-        pass("This test is intentionally passing to  build.");
+        assertTrue();
     }
 }
